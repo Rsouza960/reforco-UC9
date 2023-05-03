@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form onsubmit="enviarEmail(event)">
+            <div class="campo-label">
+                <label for="email">Login</label>
+                <input type="email" name="email" id="email" placeholder="digite seu e-mail">
+            </div>
+            <label for="senha">senha</label>
+            <input type="password" name="password" id="senha" placeholder="Sua senha">
+
+            <button type="submit"> Fazer login</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
